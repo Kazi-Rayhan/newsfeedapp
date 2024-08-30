@@ -152,6 +152,7 @@ p {
 }
 
 @mixin btn($bg, $bdr, $color) {
+    text-decoration: none;
     border-radius: 10px;
     padding: 5px 20px;
     border: $bdr 1px solid;
@@ -217,4 +218,12 @@ p {
 
 .fs-small{
  font-size: 0.8rem;
+}
+
+.fs-tiny{
+ font-size: 0.7rem;
+}
+
+.fs-large{
+    font-size: 1.1rem !important;
 }
